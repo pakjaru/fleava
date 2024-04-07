@@ -1,8 +1,12 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-	content: [],
+	content: ["./src/**/*.tsx"],
 	theme: {
-		extend: {},
+		extend: {
+			colors: {
+				grey: "#CCCCCC",
+			},
+		},
 	},
 	plugins: [],
 }
