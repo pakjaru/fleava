@@ -1,11 +1,14 @@
-.vscode
+.husky/*
+.vscode/*
 .editorconfig
 .eslintignore
 .eslintrc.cjs
 .gitignore
 index.html
 package.json
+postcss.config.js
 README.md
+tailwind.config.js
 tsconfig.json
 tsconfig.node.json
 vite.config.ts
