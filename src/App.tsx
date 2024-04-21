@@ -1,9 +1,11 @@
-function App() {
+import { FC } from "react"
+
+import { Hero } from "./components"
+
+export const App: FC = () => {
 	return (
 		<>
-			<div>App</div>
+			<Hero />
 		</>
 	)
 }
-
-export default App
